@@ -1,0 +1,15 @@
+{
+  "name": "briscola-creativa",
+  "version": "1.0.0",
+  "description": "Sitio institucional Briscola Creativa",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss/main.scss assets/css/styles.css",
+    "watch": "sass --watch scss/main.scss assets/css/styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.89.0"
+  }
+}

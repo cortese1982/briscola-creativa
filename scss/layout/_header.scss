@@ -1,0 +1,50 @@
+.header {
+
+    padding: 1.5rem 0;
+    background: $white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, .04);
+
+}
+
+.header__container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-decoration: none;
+    color: $color-dark;
+
+}
+
+.nav__list {
+
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+
+}
+
+.nav__list a {
+
+    text-decoration: none;
+    color: $color-dark;
+    font-weight: 600;
+    transition: $transition;
+
+}
+
+.nav__list a:hover {
+
+    color: $color-primary;
+
+}

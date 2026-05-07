@@ -1,0 +1,45 @@
+.cards {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+
+}
+
+.card {
+
+    @include card;
+    transition: $transition;
+
+}
+
+.card:hover {
+
+    transform: translateY(-10px);
+
+}
+
+.card img {
+
+    border-radius: $radius;
+    margin-bottom: 1.5rem;
+    height: 240px;
+    object-fit: cover;
+
+}
+
+.card h3 {
+
+    margin-bottom: 1rem;
+
+}
+
+.card__link {
+
+    display: inline-block;
+    margin-top: 1rem;
+    color: $color-primary-dark;
+    font-weight: 700;
+    text-decoration: none;
+
+}

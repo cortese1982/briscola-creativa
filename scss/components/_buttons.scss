@@ -33,3 +33,33 @@
     color: $color-primary-dark;
 
 }
+
+.whatsapp {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+
+    width: 64px;
+    height: 64px;
+
+    border-radius: 50%;
+    background: #25D366;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, .2);
+
+    z-index: 999;
+    transition: $transition;
+}
+
+.whatsapp:hover {
+    transform: scale(1.08);
+}
+
+.whatsapp img {
+    width: 34px;
+    height: 34px;
+}

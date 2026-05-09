@@ -137,6 +137,7 @@ section {
 
 .footer a {
   text-decoration: none;
+  transition: 0.3s ease;
 }
 
 .footer a:hover {
@@ -145,7 +146,7 @@ section {
 
 .footer__content {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr;
   gap: 2rem;
 }
 
@@ -156,6 +157,17 @@ section {
 
 .footer li {
   margin-bottom: 0.5rem;
+}
+
+.footer__social {
+  margin-top: 1rem;
+}
+
+.footer__social a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
 }
 
 @media (max-width: 768px) {
@@ -202,6 +214,31 @@ section {
 .btn--light:hover {
   background: #f7e7df;
   color: #8f5f52;
+}
+
+.whatsapp {
+  position: fixed;
+  right: 24px;
+  bottom: 24px;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #25D366;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+  transition: 0.3s ease;
+}
+
+.whatsapp:hover {
+  transform: scale(1.08);
+}
+
+.whatsapp img {
+  width: 34px;
+  height: 34px;
 }
 
 .cards {

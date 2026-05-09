@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 160" role="img" aria-labelledby="title desc">
+
+    <title id="title">Briscola Creativa</title>
+    <desc id="desc">
+        Logo elegante para Briscola Creativa
+    </desc>
+
+    <path d="M110 108 C160 138, 360 138, 410 108" fill="none" stroke="#c98b7d" stroke-width="3" stroke-linecap="round"></path>
+
+    <path d="M150 112 C165 95, 182 95, 195 112" fill="none" stroke="#d8b7a8" stroke-width="2" stroke-linecap="round"></path>
+
+    <path d="M325 112 C338 95, 355 95, 370 112" fill="none" stroke="#d8b7a8" stroke-width="2" stroke-linecap="round"></path>
+
+    <circle cx="260" cy="116" r="5" fill="#c98b7d"></circle>
+
+    <text x="260" y="70" text-anchor="middle" font-family="Georgia, serif" font-size="48" font-style="italic" fill="#3b2f2f">
+
+        Briscola
+
+    </text>
+
+    <text x="260" y="105" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" letter-spacing="8" fill="#8f5f52">
+
+        CREATIVA
+
+    </text>
+
+    <path d="M205 98 H230" stroke="#c98b7d" stroke-width="2" stroke-linecap="round"></path>
+
+    <path d="M290 98 H315" stroke="#c98b7d" stroke-width="2" stroke-linecap="round"></path>
+
+</svg>

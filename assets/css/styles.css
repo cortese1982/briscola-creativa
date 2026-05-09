@@ -107,6 +107,12 @@ section {
   color: #3b2f2f;
 }
 
+.logo img {
+  height: 70px;
+  width: auto;
+  display: block;
+}
+
 .nav__list {
   display: flex;
   gap: 2rem;
